@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	
+	<head>
+		<meta charset="UTF-8" />
+		<title>SUDOKU Game</title>
+		<style>
+			body { background-color: black; }
+			h1 { font-family: courier; color: white;}
+			
+		</style>
+		
+		<SCRIPT type="text/javascript" src="sudoku.js" > </SCRIPT>
+	</head>
+	
+	
+	<body onload="initGame()" >
+		
+		
+		<h1>A simple sudoku made with javascript. Enjoy :)</h1>
+		<canvas id="gameScreen" > </canvas>
+		
+		
+		
+		<SCRIPT>
+			window.addEventListener("keydown", events, false);
+			window.addEventListener("mousedown", mouseDown, false);
+			var game = setInterval(loop, 100);
+		</SCRIPT>
+		
+		
+	</body>
+</html>
